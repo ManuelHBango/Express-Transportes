@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Express Transportes | Rotas</title>
+  <meta name="description" content="Rotas atendidas pela Express Transportes, empresa localizada em Luanda, Angola.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.jpg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+  <div class="semaforo-icon">
+    <div class="light red"></div>
+    <div class="light yellow"></div>
+    <div class="light green"></div>
+  </div>
+  <aside class="sidebar">
+    <div class="logo-container">
+      <img src="logo.jpg" alt="Logo Express Transportes" class="logo-img"/>
+      <span class="site-name">Express Transportes</span>
+    </div>
+    <nav>
+      <ul class="side-menu">
+        <li><a href="index.html" class="active"><i class="bi bi-house-door"></i> Início</a></li>
+        <li><a href="blog.html"><i class="bi bi-journal-richtext"></i> Blog</a></li>
+        <li><a href="rotas.html"><i class="bi bi-map"></i> Rotas</a></li>
+        <li><a href="galeria.html"><i class="bi bi-images"></i> Galeria</a></li>
+        <li><a href="#faq"><i class="bi bi-question-circle"></i> FAQ</a></li>
+        <li><a href="contato.html"><i class="bi bi-envelope"></i> Contato</a></li>
+        <li><a href="oportunidade.html"><i class="bi bi-person-badge"></i> Oportunidade</a></li>
+        <li><a href="orcamento.html" class="destacado"><i class="bi bi-cash-coin"></i> Orçamento</a></li>
+      </ul>
+    </nav>
+
+  </aside>
+  <main>
+    <section class="rotas-section">
+      <h1>Rotas Atendidas</h1>
+      <p>Atendemos em todo territorio Angolano no serviço de fretamento...:</p>
+      <ul class="rotas-list">
+        <li>Luanda</li>
+        <li>Corporativo: solicitações personalizadas sob demanda</li>
+      </ul>
+      <!-- Mapa das rotas -->
+      <div class="rotas-map">
+        <iframe
+          title="Rotas Express Angola"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.532038965716!2d13.234128874875075!3d-8.836824392079517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a4a2b08b1e84819%3A0xb9ee65876ecb913d!2sLuanda!5e0!3m2!1spt-PT!2sao!4v1700000000000!5m2!1spt-PT!2sao"
+          width="98%" height="220" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
+    <!-- Galeria de fotos -->
+    <section id="galeria" class="galeria">
+      <h2>Galeria</h2>
+      <div class="galeria-grid">
+        <div class="galeria-item"><img src="foto1.jpg" alt="Ônibus rodoviário Express"></div>
+        <div class="galeria-item"><img src="foto2.jpg" alt="Equipe de motoristas"></div>
+        <div class="galeria-item"><img src="foto3.jpg" alt="Viatura corporativa"></div>
+        <div class="galeria-item"><img src="foto4.jpg" alt="Salão de embarque"></div>
+        <div class="galeria-item"><img src="foto5.jpg" alt="Cliente satisfeito"></div>
+        <div class="galeria-item"><img src="foto6.jpg" alt="Viagem em estrada"></div>
+      </div>
+    </section>
+    <footer class="site-footer">
+      <div class="footer-social">
+        <a href="https://www.instagram.com/exprestransportes?igsh=MWZuZXRoc3VnanMxdw==" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.facebook.com/share/1Fx6AAHyqR/" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://wa.me/244972578300" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.tiktok.com/@express.transportes?_r=1&_t=ZM-91QOlwaexJ5" target="_blank"><i class="bi bi-tiktok"></i></a>
+      </div>
+      <div>
+        © <span id="anoFooter"></span> Express Transportes – Luanda, Angola. Todos os direitos reservados.
+      </div>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

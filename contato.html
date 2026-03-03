@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Express Transportes — Eficiência & Eficácia </title>
+<meta name="description" content="Empresa de transporte rodoviário localizada em Luanda, Angola. Segurança, elegância, soluções personalizadas.">
+<!-- Open Graph -->
+<meta property="og:title" content="Express Transportes">
+<meta property="og:description" content="Serviços de transportes expresso...">
+<meta property="og:image" content="https://manuelhbango.github.io/Express-Transportes/logo.jpg">
+ 
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.jpg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+  <!-- Semáforo fixo -->
+  <div class="semaforo-icon">
+    <div class="light red"></div>
+    <div class="light yellow"></div>
+    <div class="light green"></div>
+  </div>
+  <!-- Sidebar/Menu fixo -->
+  <aside class="sidebar">
+    <div class="logo-container">
+      <img src="logo.jpg" alt="Logo Express Transportes" class="logo-img"/>
+      <span class="site-name">Express Transportes</span>
+    </div>
+    <nav>
+      <ul class="side-menu">
+        <li><a href="index.html" class="active"><i class="bi bi-house-door"></i> Início</a></li>
+        <li><a href="blog.html"><i class="bi bi-journal-richtext"></i> Blog</a></li>
+        <li><a href="rotas.html"><i class="bi bi-map"></i> Rotas</a></li>
+        <li><a href="galeria.html"><i class="bi bi-images"></i> Galeria</a></li>
+        <li><a href="#faq"><i class="bi bi-question-circle"></i> FAQ</a></li>
+        <li><a href="contato.html"><i class="bi bi-envelope"></i> Contato</a></li>
+        <li><a href="oportunidade.html"><i class="bi bi-person-badge"></i> Oportunidade</a></li>
+        <li><a href="orcamento.html" class="destacado"><i class="bi bi-cash-coin"></i> Orçamento</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <main>
+    <!-- Banner -->
+    <section class="banner">
+      <h1>Movendo Pessoas, Transformando Destinos</h1>
+      <p>Empresa de transporte rodoviário em Luanda - Angola. Segurança, elegância e soluções personalizadas para empresas e clientes particulares.</p>
+      <a href="orcamento.html" class="btn-main">Solicitar Orçamento</a>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato">
+      <h2>Contato</h2>
+      <form id="contact-form">
+        <label for="assunto">Assunto:</label>
+        <select id="assunto" name="assunto">
+          <option value="duvida">Dúvida</option>
+          <option value="orcamento">Orçamento</option>
+          <option value="oportunidade">Oportunidade</option>
+        </select>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+        <input type="email" id="email" name="email" placeholder="Seu email" required>
+        <textarea id="mensagem" name="mensagem" placeholder="Mensagem ou currículo" required></textarea>
+        <div class="form-buttons">
+          <button type="submit">Enviar por email</button>
+        </div>
+        <p class="form-dica">Ou fale já pelo WhatsApp: <a href="https://wa.me/244972578300" target="_blank">Enviar mensagem</a></p>
+        <div class="form-status" id="form-status"></div>
+      </form>
+    </section>
+        <!-- Mapa -->
+    <section class="sobre-empresa">
+      <p>
+        <b>Localização:</b> Sede em Luanda, Benfica Junto ao Colégio Internacional.<br>
+      </p>
+      <div class="map-container">
+        <iframe
+          title="Google Map Luanda"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.532038965716!2d13.234128874875075!3d-8.836824392079517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a4a2b08b1e84819%3A0xb9ee65876ecb913d!2sLuanda!5e0!3m2!1spt-PT!2sao!4v1700000000000!5m2!1spt-PT!2sao"
+          width="98%" height="220" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
+
+  
+    <!-- Rodapé -->
+    <footer class="site-footer">
+      <div class="footer-social">
+        <a href="https://www.instagram.com/exprestransportes?igsh=MWZuZXRoc3VnanMxdw==" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.facebook.com/share/1Fx6AAHyqR/" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://wa.me/244972578300" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.tiktok.com/@express.transportes?_r=1&_t=ZM-91QOlwaexJ5" target="_blank"><i class="bi bi-tiktok"></i></a>
+      </div>
+      <div>
+        © <span id="anoFooter"></span> Express Transportes – Luanda, Angola. Todos os direitos reservados.
+      </div>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
