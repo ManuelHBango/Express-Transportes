@@ -25,7 +25,7 @@
 
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/favicon.svg">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
@@ -181,7 +181,12 @@
     <!-- Contato -->
     <section id="contato" class="contato">
       <h2>Contato</h2>
-      <form id="contact-form">
+      <form id="contact-form" action="https://formsubmit.co/comercialexpresstransportes@gmail.com" method="POST">
+        <!-- FormSubmit will forward to the email; we use a thank-you page -->
+        <input type="hidden" name="_subject" value="[Site] Nova mensagem de contato">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="/thank-you.html">
+
         <label for="assunto">Assunto:</label>
         <select id="assunto" name="assunto">
           <option value="duvida">Dúvida</option>
@@ -218,6 +223,6 @@
       </div>
     </footer>
   </main>
-  <script src="script.js"></script>
+  <script src="script.min.js"></script>
 </body>
 </html>
