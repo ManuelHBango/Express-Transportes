@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://ManuelHBango.github.io/Express-Transportes/sitemap.xml
